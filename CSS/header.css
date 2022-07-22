@@ -1,0 +1,121 @@
+@import url("style.css");
+
+.headerWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 40px;
+}
+.logo {
+  padding-top: 12px;
+}
+
+.btn {
+  padding: 4px 10px 4px 23px;
+  display: flex;
+  gap: 13px;
+}
+input[type="text"] {
+  /* border: none; */
+  outline: none;
+  padding-bottom: 8px;
+  padding-top: 8px;
+}
+/* input[type="text"]:focus {
+  border: none;
+} */
+
+.searchInput {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+  width: 100%;
+}
+
+.notification {
+  position: relative;
+  cursor: pointer;
+}
+
+.notificationDot {
+  position: absolute;
+  top: -3px;
+  right: -1px;
+  width: 12px;
+  height: 12px;
+  background: #ff016c;
+  border: 2px solid #ffffff;
+  border-radius: 12px;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  padding-top: 4px;
+  gap: 32px;
+}
+/* .profilePhoto {
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+} */
+.profilePhoto img {
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 100px;
+}
+.mobile {
+  display: none;
+}
+
+@media (max-width: 639px) {
+  .searchBar {
+    display: none;
+  }
+  .profile {
+    display: none;
+  }
+  .logo {
+    padding-top: 0;
+  }
+  .headerWrapper {
+    padding: 18px 16px 18px 16px;
+  }
+  .mobile {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  .searchBtn > button {
+    border: none;
+    background: transparent;
+    margin: 0 16px 0 0;
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    left: -31px;
+  }
+  .logIn > button {
+    border: none;
+    background: transparent;
+    margin: 0 20px 0 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    cursor: pointer;
+  }
+  .join > button {
+    border: none;
+    background: transparent;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 4px 16px;
+    background: #02022b;
+    border-radius: 48px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+}

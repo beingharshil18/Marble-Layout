@@ -1,0 +1,108 @@
+@import url("style.css");
+
+.marblesWrapper {
+  /* padding-top: 32px; */
+  display: flex;
+  gap: 32px;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 32px;
+}
+.marbles {
+  background: #fff;
+  max-width: 160px;
+  width: 100%;
+  padding-right: 27px;
+  padding-left: 20px;
+  height: 100%;
+  border-radius: 12px;
+}
+
+.marblesText {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #f27059;
+  margin-left: 4px;
+  padding-top: 19px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.viewAll {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 133%;
+  align-items: center;
+  text-decoration-line: underline;
+  color: #f27059;
+  /* margin-left: 20px; */
+  /* padding-bottom: 20px; */
+  /* padding-top: 37px; */
+  margin: 37px 0 20px 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.followText {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  margin-left: 4px;
+  margin-right: 27px;
+  padding-top: 30px;
+  max-width: 120px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sliderImg img {
+  max-width: 160px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.marblesSlider {
+  position: relative;
+}
+.playButton {
+  position: absolute;
+  top: 88px;
+  left: 60px;
+}
+.playButton > button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+.profileWrapper {
+  position: absolute;
+  bottom: 12px;
+  left: 14px;
+}
+
+.storyProfile .profilePhoto img {
+  border: solid #fff;
+  width: 40px;
+  max-width: 100%;
+  margin-bottom: 11px;
+}
+
+.storyText > p {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 133%;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .marblesWrapper {
+    display: none;
+  }
+}
