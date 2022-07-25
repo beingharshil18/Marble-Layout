@@ -1,0 +1,42 @@
+@media (max-width: 1024px) {
+  .libraries input:checked + label + span:after {
+    content: "";
+    display: block;
+    position: absolute;
+    background: white;
+    border-radius: 10px;
+    border: none;
+    top: -6px;
+    padding: 50px 0px 27px 0px;
+    left: 0px;
+    right: 0;
+    height: 100%;
+  }
+  .libraries input + label + span:before {
+    content: "";
+    display: block;
+    position: absolute;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid #cfd2e0;
+    top: -7px;
+    padding: 50px 0px 27px 0px;
+    left: 0px;
+    right: 0;
+    height: 100%;
+    color: #cfd2e0;
+  }
+  .libraries input:checked + label .labelOncheck {
+    content: "";
+    color: black;
+  }
+  span.labelOncheck {
+    display: inline-block;
+    padding-left: 2px;
+    padding-bottom: 48px;
+    /* padding-right: 0px; */
+  }
+  .mobileCheckbox .librariesWrapper {
+    padding: 0 0 25px 0;
+  }
+}

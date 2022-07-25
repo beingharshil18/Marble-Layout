@@ -118,9 +118,57 @@
             </div>
         </header>
         <!-- Header-Section Ends -->
+        <div class="colorbtnClick" id="oncolorClick">
+            <h4 class="colorTitle">Curate your feed</h4>
+            <div class="colorsrc">
+                <button type="button">
+                    <svg onclick="getFocus2()" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M9.16667 15.8333C12.8486 15.8333 15.8333 12.8486 15.8333 9.16667C15.8333 5.48477 12.8486 2.5 9.16667 2.5C5.48477 2.5 2.5 5.48477 2.5 9.16667C2.5 12.8486 5.48477 15.8333 9.16667 15.8333Z"
+                            stroke="#CFD2E0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M17.5 17.5L13.875 13.875" stroke="#CFD2E0" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg> <input type="text" placeholder="Search by keyword" id="search2" class="searchInput">
+                </button>
+            </div>
+            <div class="whattoSee">
+                <form class="boxed2">
+                    <input type="radio" name="radiobtn2" id="following2" checked>
+                    <label for="following2" id="rbfollowing2">Following</label>
 
+                    <input type="radio" name="radiobtn2" id="all2">
+                    <label for="all2" id="rball2"> All</label>
+                </form>
+                <h4>What do you want to see?</h4>
+                <div class="mobileCheckbox">
+                    <div class="librariesWrapper">
+                        <div class="libraries">
+                            <input type="checkbox" id="libraries2">
+                            <label class="labelText" for="libraries2"><span
+                                    class="labelOncheck">Libraries</span></label>
+                            <span></span>
+                        </div>
+                        <div class="libraries">
+                            <input type="checkbox" id="Collections2">
+                            <label class="labelText" for="Collections2"><span
+                                    class="labelOncheck">Collections</span></label>
+                            <span></span>
+                        </div>
+                        <div class="libraries">
+                            <input type="checkbox" id="Luminaries2">
+                            <label class="labelText" for="Luminaries2"><span
+                                    class="labelOncheck">Luminaries</span></label>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
         <!-- Hero-Banner Starts -->
         <section>
+
             <div class="banner">
                 <div class="leftSide">
                     <div class="img1 bannerImg">
@@ -421,7 +469,7 @@
 
                         </button>
                     </div>
-                    <div class="colorbtnClick" id="oncolorClick">
+                    <!-- <div class="colorbtnClick" id="oncolorClick">
                         <h4 class="colorTitle">Curate your feed</h4>
                         <div class="colorsrc">
                             <button type="button">
@@ -446,7 +494,7 @@
                                 <label for="all2" id="rball2"> All</label>
                             </form>
                         </div>
-                    </div>
+                    </div> -->
 
                     <div class="allFollowing">
                         <form class="boxed">

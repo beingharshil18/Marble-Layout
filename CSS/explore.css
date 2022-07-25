@@ -285,6 +285,9 @@ span.labelOncheck {
 .mobileSec {
   display: none;
 }
+.colorbtnClick {
+  display: none;
+}
 @media (max-width: 1350px) {
   .colorButton {
     left: 6px;
@@ -327,9 +330,6 @@ span.labelOncheck {
     margin: 25px 0 25px 25px !important;
     width: 83px !important;
   }
-  /* .owl-carousel.owl-drag .owl-item {
-      background-image: url(../Images/Outline.svg);
-    } */
   .mob-slider a {
     display: inline-block;
     text-decoration: none;
@@ -421,6 +421,9 @@ span.labelOncheck {
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     padding: 26px;
+    margin: 0 auto;
+    height: 100vh;
+    overflow: auto;
   }
   .colorTitle {
     color: #fff;
@@ -453,12 +456,27 @@ span.labelOncheck {
   #search2 {
     color: #cfd2e0;
   }
-  #oncolorClick {
+  /* #oncolorClick {
     display: none;
+  } */
+  .colorbtnClick {
+    display: block;
+  }
+  .whattoSee {
+    border-bottom: 1px solid #60608b;
+  }
+  .whattoSee > h4 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 133%;
+    color: #fff;
   }
   .boxed2 {
     border-radius: 6px;
     background: rgba(255, 255, 255, 0.15);
+    width: 178px;
+    margin-bottom: 24px;
   }
 
   .boxed2 label {
