@@ -424,6 +424,8 @@ span.labelOncheck {
     margin: 0 auto;
     height: 100vh;
     overflow: auto;
+    position: absolute;
+    z-index: 2;
   }
   .colorTitle {
     color: #fff;
@@ -460,10 +462,11 @@ span.labelOncheck {
     display: none;
   } */
   .colorbtnClick {
-    display: block;
+    display: none;
   }
   .whattoSee {
     border-bottom: 1px solid #60608b;
+    margin: 0 0 24px 0;
   }
   .whattoSee > h4 {
     margin-bottom: 20px;

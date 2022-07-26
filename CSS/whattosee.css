@@ -7,7 +7,7 @@
     border-radius: 10px;
     border: none;
     top: -6px;
-    padding: 50px 0px 27px 0px;
+    padding: 20px 0px 27px 0px;
     left: 0px;
     right: 0;
     height: 100%;
@@ -20,7 +20,7 @@
     border-radius: 10px;
     border: 1px solid #cfd2e0;
     top: -7px;
-    padding: 50px 0px 27px 0px;
+    padding: 20px 0px 27px 0px;
     left: 0px;
     right: 0;
     height: 100%;
@@ -33,10 +33,180 @@
   span.labelOncheck {
     display: inline-block;
     padding-left: 2px;
-    padding-bottom: 48px;
+    padding-bottom: 10px;
     /* padding-right: 0px; */
   }
   .mobileCheckbox .librariesWrapper {
     padding: 0 0 25px 0;
   }
+  .industryTitle > h4 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 133%;
+    color: #fafafa;
+    margin: 0 0 8px 0;
+  }
+  .industryTitle > span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .industryTitle {
+    margin: 0 0 18px 0;
+  }
+
+  .industryLinks {
+    display: flex;
+    /* justify-content: space-between; */
+  }
+  .industryLeft {
+    width: 125px;
+    max-width: 100%;
+  }
+  .industryRight {
+    margin: 0 0 0 35px;
+    width: 125px;
+    max-width: 100%;
+  }
+  .industryList {
+    list-style: none;
+    padding: 0 0 8px 0;
+  }
+  .industryList a {
+    text-decoration: none;
+    color: #cfd2e0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+  }
+  .industry {
+    border-bottom: 1px solid #60608b;
+    margin: 0 0 18px 0;
+    padding: 0 0 10px 0;
+  }
+}
+
+.mistyWrapper {
+  position: absolute;
+  z-index: 2;
+  right: 35px;
+  width: 260px;
+  background: #fff;
+  padding: 20px 24px 16px;
+  box-shadow: 0px 16px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  display: none;
+}
+.mistyProfile {
+  margin: 0 0 8px 0;
+  border-bottom: 1px solid #f4f4f4;
+  padding: 0 0 25px 0;
+}
+
+.mistyCode > button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+.mistyCode > h4 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 133%;
+  cursor: pointer;
+}
+.mistyCode {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 16px 0;
+}
+
+.profileBtn > button {
+  border: none;
+  background: #02022b;
+  border-radius: 24px;
+  padding: 5px 85px;
+  color: white;
+  cursor: pointer;
+}
+.connections {
+  padding: 0 0 12px 0;
+}
+.connectionsWrapper {
+  margin: 0 0 20px 0;
+  border-bottom: 1px solid #f4f4f4;
+  padding: 0 0 20px 0;
+}
+
+.ConnectTitle {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+  color: #02022b;
+  padding: 0 0 8px 0;
+}
+.mistyFollow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9px;
+}
+.anchorBtn div > span {
+  display: flex;
+  flex-direction: column;
+  color: #02022b;
+}
+.mistyMain {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 133%;
+}
+.mistySub {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 133%;
+}
+.anchorBtn {
+  padding: 12px 16px 12px 12px;
+  background: transparent;
+  border: 1px solid #cfd2e0;
+  border-radius: 4px;
+}
+.mistyFollow a:hover {
+  background: #cfd2e0;
+}
+.mistyImpact .anchorBtn {
+  background: #f4f4f4;
+  border: none;
+}
+
+.nominateLists > li {
+  list-style: none;
+  margin: 0 0 14px 0;
+}
+.nominateLists > li:hover {
+  background: #eeeff2;
+}
+.nominateLists li > a {
+  display: flex;
+  gap: 8px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #02022b;
+}
+.nominate {
+  border-bottom: 1px solid #f4f4f4;
+  margin: 0 0 12px 0;
+}
+.logOut a > span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #02022b;
+}
+.logOut a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
