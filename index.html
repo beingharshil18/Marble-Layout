@@ -78,8 +78,10 @@
                     <!-- </div> -->
                     <input type="text" id="search" class="searchInput" name="fname" placeholder="Find Luminaries">
                 </div>
-                <div class="profile">
-                    <div class="notification">
+                <div class="profileBar">
+                    <!-- profile -->
+                    <div class="headerIcon">
+                        <!-- notification -->
                         <div class="notificationIcon">
                             <svg width="22" height="24" viewBox="0 0 22 24" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -98,9 +100,14 @@
 
                         </div>
                     </div>
-                    <div class="profilePhoto">
+                    <!-- <div class="profilePhoto">
                         <img src="./Images/profilephoto.jpeg" alt="profilePhoto" onclick="colorClick()"
                             id="profileOnclick">
+                    </div> -->
+                    <div class="profilePhoto">
+                        <button type="button">
+                            <img src="./Images/profilephoto.jpeg" alt="profilePhoto" onclick="colorClick()"
+                                id="profileOnclick"></button>
                     </div>
 
                 </div>
@@ -118,9 +125,10 @@
             </div>
         </header>
         <!-- Header-Section Ends -->
-        <div class="colorbtnClick" id="oncolorClick">
-            <h4 class="colorTitle">Curate your feed</h4>
-            <div class="colorsrc">
+        <div class="curateFeed" id="oncolorClick">
+            <!-- classs = colorbtnClick -->
+            <h4 class="curateFeedTitle">Curate your feed</h4>
+            <div class="curateFeedSearch">
                 <button type="button">
                     <svg onclick="getFocus2()" width="20" height="20" viewBox="0 0 20 20" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -141,31 +149,31 @@
                     <label for="all2" id="rball2"> All</label>
                 </form>
                 <h4>What do you want to see?</h4>
-                <div class="mobileCheckbox">
-                    <div class="librariesWrapper">
-                        <div class="libraries">
+                <!-- <div class="mobileCheckbox">
+                    <div class="checkboxMenu">
+                        <div class="checkBoxes">
                             <input type="checkbox" id="libraries2">
                             <label class="labelText" for="libraries2"><span
                                     class="labelOncheck">Libraries</span></label>
                             <span></span>
                         </div>
-                        <div class="libraries">
+                        <div class="checkBoxes">
                             <input type="checkbox" id="Collections2">
                             <label class="labelText" for="Collections2"><span
                                     class="labelOncheck">Collections</span></label>
                             <span></span>
                         </div>
-                        <div class="libraries">
+                        <div class="checkBoxes">
                             <input type="checkbox" id="Luminaries2">
                             <label class="labelText" for="Luminaries2"><span
                                     class="labelOncheck">Luminaries</span></label>
                             <span></span>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="industry">
-                <div class="industryTitle">
+                <div class="subSectionTitle">
                     <h4>Industry</h4>
                     <span>What sector do you want to explore today?</span>
                 </div>
@@ -196,7 +204,7 @@
 
             </div>
             <div class="industry">
-                <div class="industryTitle">
+                <div class="subSectionTitle">
                     <h4>Industry</h4>
                     <span>What sector do you want to explore today?</span>
                 </div>
@@ -227,7 +235,7 @@
 
             </div>
             <div class="industry">
-                <div class="industryTitle">
+                <div class="subSectionTitle">
                     <h4>Industry</h4>
                     <span>What sector do you want to explore today?</span>
                 </div>
@@ -258,7 +266,7 @@
 
             </div>
             <div class="industry">
-                <div class="industryTitle">
+                <div class="subSectionTitle">
                     <h4>Industry</h4>
                     <span>What sector do you want to explore today?</span>
                 </div>
@@ -289,9 +297,9 @@
 
             </div>
         </div>
-        <div class="mistyWrapper" id="onMistyClick">
-            <div class="mistyProfile">
-                <div class="mistyCode">
+        <div class="userProfileWrapper" id="onMistyClick">
+            <div class="userProfile">
+                <div class="userProfileName">
                     <h4>Misty Copeland</h4>
                     <button type="button"><img src="./Images/share.svg" alt="share"></button>
                 </div>
@@ -299,57 +307,57 @@
                     <button type="button">Profile</button>
                 </div>
             </div>
-            <div class="connectionsWrapper">
+            <div class="userConnections">
                 <div class="connections">
-                    <h6 class="ConnectTitle">Connections</h6>
-                    <div class="mistyFollow">
+                    <h6 class="userSectionTitle">Connections</h6>
+                    <div class="userProfileActivity">
                         <a href="#" class="anchorBtn">
                             <div>
-                                <span class="mistyMain">490</span>
-                                <span class="mistySub">Followers</span>
+                                <h5 class="activityTitle">490</h5>
+                                <span class="activitySubTitle">Followers</span>
                             </div>
                         </a>
                         <a href="#" class="anchorBtn">
                             <div>
-                                <span class="mistyMain">49</span>
-                                <span class="mistySub">Following</span>
+                                <h5 class="activityTitle">49</h5>
+                                <span class="activitySubTitle">Following</span>
                             </div>
                         </a>
                     </div>
                 </div>
-                <div class="impact">
-                    <h6 class="ConnectTitle">Impact</h6>
-                    <div class="mistyFollow mistyImpact">
+                <div class="userInsights">
+                    <h6 class="userSectionTitle">Impact</h6>
+                    <div class="userProfileActivity userProfileActivityBg">
                         <a href="#" class="anchorBtn">
                             <div>
-                                <span class="mistyMain">2.1K</span>
-                                <span class="mistySub">inspired</span>
+                                <h5 class="activityTitle">2.1K</h5>
+                                <span class="activitySubTitle">inspired</span>
                             </div>
                         </a>
                         <a href="#" class="anchorBtn">
                             <div>
-                                <span class="mistyMain">598</span>
-                                <span class="mistySub">claps</span>
+                                <h5 class="activityTitle">598</h5>
+                                <span class="activitySubTitle">claps</span>
                             </div>
                         </a>
                         <a href="#" class="anchorBtn">
                             <div>
-                                <span class="mistyMain">2.1K</span>
-                                <span class="mistySub">views</span>
+                                <h5 class="activityTitle">2.1K</h5>
+                                <span class="activitySubTitle">views</span>
                             </div>
                         </a>
                         <a href="#" class="anchorBtn">
                             <div>
-                                <span class="mistyMain">18</span>
-                                <span class="mistySub">saves</span>
+                                <h5 class="activityTitle">18</h5>
+                                <span class="activitySubTitle">saves</span>
                             </div>
                         </a>
                     </div>
                 </div>
             </div>
 
-            <div class="nominate">
-                <ul class="nominateLists">
+            <div class="userActivityMenu">
+                <ul class="activityMenuList">
                     <li><a href="#"><img src="./Images/nominate.svg" alt="nominate"> <span>Nominate a
                                 Luminary</span></a></li>
 
@@ -360,7 +368,7 @@
 
                 </ul>
             </div>
-            <div class="logOut">
+            <div class="logOutMenu">
                 <a href="#"><img src="./Images/logout.svg" alt="logout"> <span>Logout
                     </span></a>
             </div>
@@ -407,12 +415,13 @@
         <section class="exploreWrapper web ">
             <div class="container">
                 <div class="explore">
-                    <div class="exploreText">
+                    <div class="SectionTitle">
+                        <!-- exploreText -->
                         <h2>Explore your feed</h2>
 
                     </div>
-                    <div class="followingWrapper">
-                        <div class="following">
+                    <div class="sectionNav">
+                        <div class="dropdownMenu">
                             <div class="dropdown">
                                 <button class="dropbtn" onclick="myFunction()">Following <span class="dropIcon"><img
                                             src="./Images/dropdown.svg" alt=""></span></button>
@@ -423,20 +432,20 @@
                                 </div>
 
                             </div>
-                            <div class="librariesWrapper">
-                                <div class="libraries">
+                            <div class="checkboxMenu">
+                                <div class="checkBoxes">
                                     <input type="checkbox" id="libraries">
                                     <label class="labelText" for="libraries"><span
                                             class="labelOncheck">Libraries</span></label>
                                     <span></span>
                                 </div>
-                                <div class="libraries">
+                                <div class="checkBoxes">
                                     <input type="checkbox" id="Collections">
                                     <label class="labelText" for="Collections"><span
                                             class="labelOncheck">Collections</span></label>
                                     <span></span>
                                 </div>
-                                <div class="libraries">
+                                <div class="checkBoxes">
                                     <input type="checkbox" id="Luminaries">
                                     <label class="labelText" for="Luminaries"><span
                                             class="labelOncheck">Luminaries</span></label>
@@ -484,14 +493,14 @@
                         </div>
                         <div class="whiteCircle">
                         </div>
-                        <div class="colorButton">
+                        <div class="curateFeedBtn">
                             <button type="button"><img src="./Images/Colors.svg" alt="colorBtn"></button>
                         </div>
                     </div>
 
                 </div>
                 <!-- Marbles Slider Start -->
-                <div class="marblesWrapper">
+                <div class="sliderWrapper">
                     <!-- <div class="marbles">
                         <p class="marblesText">marbles</p>
                         <h5 class="followText">Follow
@@ -501,7 +510,7 @@
 
                     <div class="owl-carousel owl-theme carouselOne">
                         <div class="item">
-                            <div class="marblesSlider">
+                            <div class="cardSlider">
                                 <div class="sliderImg">
                                     <img src="./Images/Group 738.png" alt="slider">
                                 </div>
@@ -521,7 +530,7 @@
                             </div>
                         </div>
                         <div class="item">
-                            <div class="marblesSlider">
+                            <div class="cardSlider">
                                 <div class="sliderImg">
                                     <img src="./Images/Group 739.png" alt="slider">
                                 </div>
@@ -541,7 +550,7 @@
                             </div>
                         </div>
                         <div class="item">
-                            <div class="marblesSlider">
+                            <div class="cardSlider">
                                 <div class="sliderImg">
                                     <img src="./Images/Group 740.png" alt="slider">
                                 </div>
@@ -561,7 +570,7 @@
                             </div>
                         </div>
                         <div class="item">
-                            <div class="marblesSlider">
+                            <div class="cardSlider">
                                 <div class="sliderImg">
                                     <img src="./Images/Group 741.png" alt="slider">
                                 </div>
@@ -581,7 +590,7 @@
                             </div>
                         </div>
                         <div class="item">
-                            <div class="marblesSlider">
+                            <div class="cardSlider">
                                 <div class="sliderImg">
                                     <img src="./Images/Group 742.png" alt="slider">
                                 </div>
@@ -659,43 +668,18 @@
                     </div>
                 </div>
                 <div class="explore">
-                    <div class="exploreText">
+                    <div class="SectionTitle">
                         <h2>Explore</h2>
                     </div>
-                    <div class="colorButtonm">
+                    <div class="curateFeedBtn2">
                         <button type="button" onclick="colorClick()" id="toggle"><img src="./Images/Colors.svg"
                                 alt="colorBtn">
 
                         </button>
                     </div>
-                    <!-- <div class="colorbtnClick" id="oncolorClick">
-                        <h4 class="colorTitle">Curate your feed</h4>
-                        <div class="colorsrc">
-                            <button type="button">
-                                <svg onclick="getFocus2()" width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M9.16667 15.8333C12.8486 15.8333 15.8333 12.8486 15.8333 9.16667C15.8333 5.48477 12.8486 2.5 9.16667 2.5C5.48477 2.5 2.5 5.48477 2.5 9.16667C2.5 12.8486 5.48477 15.8333 9.16667 15.8333Z"
-                                        stroke="#CFD2E0" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                    <path d="M17.5 17.5L13.875 13.875" stroke="#CFD2E0" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                </svg> <input type="text" placeholder="Search by keyword" id="search2"
-                                    class="searchInput">
-                            </button>
-                        </div>
-                        <div class="whattoSee">
-                            <form class="boxed2">
-                                <input type="radio" name="radiobtn2" id="following2" checked>
-                                <label for="following2" id="rbfollowing2">Following</label>
 
-                                <input type="radio" name="radiobtn2" id="all2">
-                                <label for="all2" id="rball2"> All</label>
-                            </form>
-                        </div>
-                    </div> -->
 
-                    <div class="allFollowing">
+                    <div class="tabBar">
                         <form class="boxed">
                             <input type="radio" name="radiobtn" id="all" checked>
                             <label for="all" id="rbAll">All</label>
@@ -704,18 +688,18 @@
                             <label for="following" id="rbFollow">Following </label>
                         </form>
                     </div>
-                    <p class="exploreContent">Content About or Recommended by Luminaries</p>
+                    <p class="sectionContent">Content About or Recommended by Luminaries</p>
                 </div>
 
             </div>
         </section>
         <!-- Explore-Mobile-Section-Ends -->
         <!-- Ariana-Cards Starts -->
-        <section class="ariana">
+        <section class="cardLayoutWrapper">
             <div class="container">
-                <div class="arianaWrapper">
-                    <div class="arianaCard card-1 item">
-                        <div class="arianaHeader">
+                <div class="cardLayout">
+                    <div class="largeCard card-1 item">
+                        <div class="cardHeader">
                             <div class="userNameWrapper">
                                 <div class="profilePhoto">
                                     <img src="./Images/profilephoto.jpeg" alt="profilePhoto">
@@ -730,9 +714,9 @@
                             </div>
 
                         </div>
-                        <div class="arianaBanner">
+                        <div class="cardImage">
                             <img src="./Images/ariana.png" alt="" class="arianaImg">
-                            <div class="arianaText">
+                            <div class="cardText">
                                 <p class="arianaBig">From Music to Startups, How the Artist James Blake Keeps
                                     Reinventing Himself</p>
                             </div>
@@ -766,7 +750,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="inspiredWrapper">
+                            <div class="userStates">
                                 <div class="inspiredSection">
                                     <div class="inspired">
                                         <img src="./Images/Inspired.svg" alt=""> 35 inspired
@@ -787,8 +771,8 @@
                         </div>
                     </div>
 
-                    <div class="atomicCard card-2 item">
-                        <div class="arianaHeader">
+                    <div class="smallCard card-2 item">
+                        <div class="cardHeader">
                             <div class="smallcardWrapper">
                                 <div class="profilePhoto">
                                     <img src="./Images/profilephoto.jpeg" alt="profilePhoto">
@@ -801,9 +785,9 @@
                             </div>
 
                         </div>
-                        <div class="arianaBanner">
+                        <div class="cardImage">
                             <img src="./Images/atomic.png" alt="" class="arianaImg">
-                            <div class="arianaText">
+                            <div class="cardText">
                                 <p class="arianaSmall">Atomic Habits: An Easy & Proven Way to Build Good Habits & Break
                                     Bad Ones</p>
                             </div>
@@ -838,7 +822,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="inspiredWrapper">
+                            <div class="userStates">
                                 <div class="inspiredSection">
                                     <div class="inspired">
                                         <img src="./Images/Inspired.svg" alt=""> 35 inspired
@@ -859,8 +843,8 @@
 
                         </div>
                     </div>
-                    <div class="atomicCard card-3 item">
-                        <div class="arianaHeader">
+                    <div class="smallCard card-3 item">
+                        <div class="cardHeader">
                             <div class="smallcardWrapper">
                                 <div class="profilePhoto">
                                     <img src="./Images/profilephoto.jpeg" alt="profilePhoto">
@@ -873,9 +857,9 @@
                             </div>
 
                         </div>
-                        <div class="arianaBanner">
+                        <div class="cardImage">
                             <img src="./Images/card3.png" alt="" class="arianaImg">
-                            <div class="arianaText">
+                            <div class="cardText">
                                 <p class="arianaSmall">Atomic Habits: An Easy & Proven Way to Build Good Habits & Break
                                     Bad Ones</p>
                             </div>
@@ -910,7 +894,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="inspiredWrapper">
+                            <div class="userStates">
                                 <div class="inspiredSection">
                                     <div class="inspired">
                                         <img src="./Images/Inspired.svg" alt=""> 35 inspired
@@ -932,8 +916,8 @@
                         </div>
                     </div>
 
-                    <div class="atomicCard card-4 item">
-                        <div class="arianaHeader">
+                    <div class="smallCard card-4 item">
+                        <div class="cardHeader">
                             <div class="smallcardWrapper">
                                 <div class="profilePhoto">
                                     <img src="./Images/profilephoto.jpeg" alt="profilePhoto">
@@ -946,9 +930,9 @@
                             </div>
 
                         </div>
-                        <div class="arianaBanner">
+                        <div class="cardImage">
                             <img src="./Images/card4.png" alt="" class="arianaImg">
-                            <div class="arianaText">
+                            <div class="cardText">
                                 <p class="arianaSmall">Atomic Habits: An Easy & Proven Way to Build Good Habits & Break
                                     Bad Ones</p>
                             </div>
@@ -970,7 +954,7 @@
 
                             </div>
 
-                            <div class="inspiredWrapper">
+                            <div class="userStates">
                                 <div class="inspiredSection">
                                     <div class="inspired">
                                         <img src="./Images/Inspired.svg" alt=""> 35 inspired
@@ -992,8 +976,8 @@
                         </div>
                     </div>
 
-                    <div class="atomicCard card-5 item">
-                        <div class="arianaHeader">
+                    <div class="smallCard card-5 item">
+                        <div class="cardHeader">
                             <div class="smallcardWrapper">
                                 <div class="profilePhoto">
                                     <img src="./Images/profilephoto.jpeg" alt="profilePhoto">
@@ -1006,9 +990,9 @@
                             </div>
 
                         </div>
-                        <div class="arianaBanner">
+                        <div class="cardImage">
                             <img src="./Images/atomic.png" alt="" class="arianaImg">
-                            <div class="arianaText">
+                            <div class="cardText">
                                 <p class="arianaSmall">Atomic Habits: An Easy & Proven Way to Build Good Habits & Break
                                     Bad Ones</p>
                             </div>
@@ -1030,7 +1014,7 @@
 
                             </div>
 
-                            <div class="inspiredWrapper">
+                            <div class="userStates">
                                 <div class="inspiredSection">
                                     <div class="inspired">
                                         <img src="./Images/Inspired.svg" alt=""> 35 inspired
@@ -1052,8 +1036,8 @@
                         </div>
                     </div>
 
-                    <div class="atomicCard card-6 item">
-                        <div class="arianaHeader">
+                    <div class="smallCard card-6 item">
+                        <div class="cardHeader">
                             <div class="smallcardWrapper">
                                 <div class="profilePhoto">
                                     <img src="./Images/profilephoto.jpeg" alt="profilePhoto">
@@ -1066,7 +1050,7 @@
                             </div>
 
                         </div>
-                        <div class="arianaBanner">
+                        <div class="cardImage">
                             <img src="./Images/card5.png" alt="" class="arianaImg">
 
                             <div class="shareSection">
@@ -1087,7 +1071,7 @@
 
                             </div>
 
-                            <div class="inspiredWrapper">
+                            <div class="userStates">
                                 <div class="inspiredSection">
                                     <div class="inspired">
                                         <img src="./Images/Inspired.svg" alt=""> 35 inspired
@@ -1108,13 +1092,13 @@
 
                         </div>
                     </div>
-                    <div class="atomicCard onlyImg card-7 item">
-                        <div class="arianaBanner">
+                    <div class="smallCard onlyImg card-7 item">
+                        <div class="cardImage">
                             <img src="./Images/only-img1.png" alt="" class="arianaImg">
                         </div>
                     </div>
-                    <div class="atomicCard card-8 item">
-                        <div class="arianaHeader">
+                    <div class="smallCard card-8 item">
+                        <div class="cardHeader">
                             <div class="smallcardWrapper">
                                 <div class="profilePhoto">
                                     <img src="./Images/profilephoto.jpeg" alt="profilePhoto">
@@ -1127,9 +1111,9 @@
                             </div>
 
                         </div>
-                        <div class="arianaBanner">
+                        <div class="cardImage">
                             <img src="./Images/card6.png" alt="" class="arianaImg">
-                            <div class="arianaText">
+                            <div class="cardText">
                                 <p class="arianaSmall">Atomic Habits: An Easy & Proven Way to Build Good Habits & Break
                                     Bad Ones</p>
                             </div>
@@ -1163,7 +1147,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="inspiredWrapper">
+                            <div class="userStates">
                                 <div class="inspiredSection">
                                     <div class="inspired">
                                         <img src="./Images/Inspired.svg" alt=""> 35 inspired
@@ -1212,7 +1196,7 @@
 
         $('.carouselOne').owlCarousel({
             loop: true,
-            margin: 50,
+            // margin: 50,
             nav: false,
             dots: false,
             autoplay: false,

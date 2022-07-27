@@ -36,23 +36,23 @@
     padding-bottom: 10px;
     /* padding-right: 0px; */
   }
-  .mobileCheckbox .librariesWrapper {
+  .mobileCheckbox .checkboxMenu {
     padding: 0 0 25px 0;
   }
-  .industryTitle > h4 {
+  .subSectionTitle > h4 {
     font-weight: 600;
     font-size: 20px;
     line-height: 133%;
     color: #fafafa;
     margin: 0 0 8px 0;
   }
-  .industryTitle > span {
+  .subSectionTitle > span {
     font-weight: 400;
     font-size: 14px;
     line-height: 160%;
     color: rgba(255, 255, 255, 0.6);
   }
-  .industryTitle {
+  .subSectionTitle {
     margin: 0 0 18px 0;
   }
 
@@ -87,7 +87,7 @@
   }
 }
 
-.mistyWrapper {
+.userProfileWrapper {
   position: absolute;
   z-index: 2;
   right: 35px;
@@ -98,24 +98,24 @@
   border-radius: 12px;
   display: none;
 }
-.mistyProfile {
+.userProfile {
   margin: 0 0 8px 0;
   border-bottom: 1px solid #f4f4f4;
   padding: 0 0 25px 0;
 }
 
-.mistyCode > button {
+.userProfileName > button {
   border: none;
   background: transparent;
   cursor: pointer;
 }
-.mistyCode > h4 {
+.userProfileName > h4 {
   font-weight: 700;
   font-size: 16px;
   line-height: 133%;
   cursor: pointer;
 }
-.mistyCode {
+.userProfileName {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -133,20 +133,20 @@
 .connections {
   padding: 0 0 12px 0;
 }
-.connectionsWrapper {
+.userConnections {
   margin: 0 0 20px 0;
   border-bottom: 1px solid #f4f4f4;
   padding: 0 0 20px 0;
 }
 
-.ConnectTitle {
+.userSectionTitle {
   font-weight: 400;
   font-size: 12px;
   line-height: 160%;
   color: #02022b;
   padding: 0 0 8px 0;
 }
-.mistyFollow {
+.userProfileActivity {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 9px;
@@ -156,12 +156,13 @@
   flex-direction: column;
   color: #02022b;
 }
-.mistyMain {
+.activityTitle {
   font-weight: 600;
   font-size: 20px;
   line-height: 133%;
+  color: #02022b;
 }
-.mistySub {
+.activitySubTitle {
   font-size: 12px;
   font-weight: 600;
   line-height: 133%;
@@ -172,22 +173,22 @@
   border: 1px solid #cfd2e0;
   border-radius: 4px;
 }
-.mistyFollow a:hover {
+.userProfileActivity a:hover {
   background: #cfd2e0;
 }
-.mistyImpact .anchorBtn {
+.userProfileActivityBg .anchorBtn {
   background: #f4f4f4;
   border: none;
 }
 
-.nominateLists > li {
+.activityMenuList > li {
   list-style: none;
   margin: 0 0 14px 0;
 }
-.nominateLists > li:hover {
+.activityMenuList > li:hover {
   background: #eeeff2;
 }
-.nominateLists li > a {
+.activityMenuList li > a {
   display: flex;
   gap: 8px;
   font-weight: 400;
@@ -195,17 +196,17 @@
   line-height: 160%;
   color: #02022b;
 }
-.nominate {
+.userActivityMenu {
   border-bottom: 1px solid #f4f4f4;
   margin: 0 0 12px 0;
 }
-.logOut a > span {
+.logOutMenu a > span {
   font-weight: 400;
   font-size: 14px;
   line-height: 160%;
   color: #02022b;
 }
-.logOut a {
+.logOutMenu a {
   display: flex;
   align-items: center;
   gap: 10px;
