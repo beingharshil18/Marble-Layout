@@ -33,7 +33,7 @@ input[type="text"] {
   width: 100%;
 }
 
-.notification {
+.headerIcon {
   position: relative;
   cursor: pointer;
 }
@@ -48,7 +48,7 @@ input[type="text"] {
   border: 2px solid #ffffff;
   border-radius: 12px;
 }
-.profile {
+.profileBar {
   display: flex;
   align-items: center;
   padding-top: 4px;
@@ -59,6 +59,17 @@ input[type="text"] {
   height: 40px;
   overflow: hidden;
 } */
+.profilePhoto button img {
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 100px;
+}
+.profilePhoto button {
+  border: none;
+  background: transparent;
+}
 .profilePhoto img {
   width: 40px;
   height: 40px;
@@ -74,7 +85,7 @@ input[type="text"] {
   .searchBar {
     display: none;
   }
-  .profile {
+  .profileBar {
     display: none;
   }
   .logo {

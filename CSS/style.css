@@ -51,6 +51,9 @@ a {
 .swiper-slide.swiper-slide-active {
   max-width: 140px;
 }
+/* .colorbtnClick {
+  display: none !important;
+} */
 
 @media (max-width: 1199px) {
   .container {
